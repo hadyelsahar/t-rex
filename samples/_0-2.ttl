@@ -1,0 +1,3133 @@
+@prefix ann: <http://triplr.dbpedia.org/resource/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix nif: <http://ontology.neuinfo.org/NIF/Backend/nif_backend.owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+
+
+<http://www.wikidata.org/entity/Q228?nif=context>
+	nif:beginIndex "0"^^xsd:nonNegativeInteger;
+	nif:endIndex "1306"^^xsd:nonNegativeInteger;
+	nif:isString """Andorra (/ænˈdɔːrə/; [ənˈdorə], [anˈdɔra]), officially the Principality of Andorra (Catalan: Principat d'Andorra), also called the Principality of the Valleys of Andorra (Catalan: Principat de les Valls d'Andorra), is a sovereign landlocked microstate in Southwestern Europe, located in the eastern Pyrenees mountains and bordered by Spain and France. Created under a charter in A.D. 988, the present Principality was formed in A.D. 1278. It is known as a principality as it is a monarchy headed by two Co-Princes – the Spanish/Roman Catholic Bishop of Urgell and the President of France. Andorra is the sixth-smallest nation in Europe, having an area of 468 km2 (181 sq mi) and a population of approximately 85,000. Its capital Andorra la Vella is the highest capital city in Europe, at an elevation of 1,023 metres (3,356 ft) above sea level. The official language is Catalan, although Spanish, Portuguese, and French are also commonly spoken. Andorra's tourism services an estimated 10.2 million visitors annually. It is not a member of the European Union, but the Euro is the de facto currency. It has been a member of the United Nations since 1993. In 2013, the people of Andorra had the highest life expectancy in the world at 81 years, according to The Lancet. Andorra entered service at 1970-01-22.""" ;
+	nif:predLang <http://lexvo.org/id/iso639-3/eng> ;
+	a nif:Context .
+
+
+ann:0 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P37 ;
+	nif:object wd:Q7026 ;
+	rdfs:comment "NoSubject-Triple-aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=84,91>
+	nif:annotationUnit ann:annotation0 ;
+	nif:anchorOf "Catalan" ;
+	nif:beginIndex "84"^^xsd:nonNegativeInteger ;
+	nif:endIndex "91"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:1 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P37 ;
+	nif:object wd:Q7026 ;
+	rdfs:comment "NoSubject-Triple-aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=171,178>
+	nif:annotationUnit ann:annotation1 ;
+	nif:anchorOf "Catalan" ;
+	nif:beginIndex "171"^^xsd:nonNegativeInteger ;
+	nif:endIndex "178"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:2 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q29 ;
+	rdfs:comment "NoSubject-Triple-aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=334,339>
+	nif:annotationUnit ann:annotation2 ;
+	nif:anchorOf "Spain" ;
+	nif:beginIndex "334"^^xsd:nonNegativeInteger ;
+	nif:endIndex "339"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:3 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q142 ;
+	rdfs:comment "NoSubject-Triple-aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=344,350>
+	nif:annotationUnit ann:annotation3 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "344"^^xsd:nonNegativeInteger ;
+	nif:endIndex "350"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:4 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P530 ;
+	nif:object wd:Q142 ;
+	rdfs:comment "NoSubject-Triple-aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=344,350>
+	nif:annotationUnit ann:annotation4 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "344"^^xsd:nonNegativeInteger ;
+	nif:endIndex "350"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:5 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q29 ;
+	rdfs:comment "NoSubject-Triple-aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=520,527>
+	nif:annotationUnit ann:annotation5 ;
+	nif:anchorOf "Spanish" ;
+	nif:beginIndex "520"^^xsd:nonNegativeInteger ;
+	nif:endIndex "527"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:6 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q142 ;
+	rdfs:comment "NoSubject-Triple-aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=581,587>
+	nif:annotationUnit ann:annotation6 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "581"^^xsd:nonNegativeInteger ;
+	nif:endIndex "587"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:7 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P530 ;
+	nif:object wd:Q142 ;
+	rdfs:comment "NoSubject-Triple-aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=581,587>
+	nif:annotationUnit ann:annotation7 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "581"^^xsd:nonNegativeInteger ;
+	nif:endIndex "587"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:8 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P36 ;
+	nif:object wd:Q1863 ;
+	rdfs:comment "NoSubject-Triple-aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=729,745>
+	nif:annotationUnit ann:annotation8 ;
+	nif:anchorOf "Andorra la Vella" ;
+	nif:beginIndex "729"^^xsd:nonNegativeInteger ;
+	nif:endIndex "745"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q1863 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:9 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P37 ;
+	nif:object wd:Q7026 ;
+	rdfs:comment "NoSubject-Triple-aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=870,877>
+	nif:annotationUnit ann:annotation9 ;
+	nif:anchorOf "Catalan" ;
+	nif:beginIndex "870"^^xsd:nonNegativeInteger ;
+	nif:endIndex "877"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:10 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P38 ;
+	nif:object wd:Q4916 ;
+	rdfs:comment "NoSubject-Triple-aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=1068,1072>
+	nif:annotationUnit ann:annotation10 ;
+	nif:anchorOf "Euro" ;
+	nif:beginIndex "1068"^^xsd:nonNegativeInteger ;
+	nif:endIndex "1072"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q4916 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:11 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P729 ;
+	nif:object "1970-01-22T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	rdfs:comment "NoSubject-Triple-aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=1295,1305>
+	nif:annotationUnit ann:annotation11 ;
+	nif:anchorOf "1970-01-22" ;
+	nif:beginIndex "1295"^^xsd:nonNegativeInteger ;
+	nif:endIndex "1305"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef "1970-01-22T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	a nif:Phrase ;
+	rdfs:comment "Date_Linker" .
+
+
+
+ann:12 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P37 ;
+	nif:object wd:Q7026 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=0,7>
+	nif:annotationUnit ann:annotation12 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+	nif:endIndex "7"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=84,91>
+	nif:annotationUnit ann:annotation12 ;
+	nif:anchorOf "Catalan" ;
+	nif:beginIndex "84"^^xsd:nonNegativeInteger ;
+	nif:endIndex "91"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:13 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P37 ;
+	nif:object wd:Q7026 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=0,7>
+	nif:annotationUnit ann:annotation13 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+	nif:endIndex "7"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=171,178>
+	nif:annotationUnit ann:annotation13 ;
+	nif:anchorOf "Catalan" ;
+	nif:beginIndex "171"^^xsd:nonNegativeInteger ;
+	nif:endIndex "178"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:14 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q29 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=0,7>
+	nif:annotationUnit ann:annotation14 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+	nif:endIndex "7"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=334,339>
+	nif:annotationUnit ann:annotation14 ;
+	nif:anchorOf "Spain" ;
+	nif:beginIndex "334"^^xsd:nonNegativeInteger ;
+	nif:endIndex "339"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:15 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q142 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=0,7>
+	nif:annotationUnit ann:annotation15 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+	nif:endIndex "7"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=344,350>
+	nif:annotationUnit ann:annotation15 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "344"^^xsd:nonNegativeInteger ;
+	nif:endIndex "350"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:16 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P530 ;
+	nif:object wd:Q142 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=0,7>
+	nif:annotationUnit ann:annotation16 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+	nif:endIndex "7"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=344,350>
+	nif:annotationUnit ann:annotation16 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "344"^^xsd:nonNegativeInteger ;
+	nif:endIndex "350"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:17 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P37 ;
+	nif:object wd:Q7026 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=75,82>
+	nif:annotationUnit ann:annotation17 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "75"^^xsd:nonNegativeInteger ;
+	nif:endIndex "82"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=84,91>
+	nif:annotationUnit ann:annotation17 ;
+	nif:anchorOf "Catalan" ;
+	nif:beginIndex "84"^^xsd:nonNegativeInteger ;
+	nif:endIndex "91"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:18 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P37 ;
+	nif:object wd:Q7026 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=75,82>
+	nif:annotationUnit ann:annotation18 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "75"^^xsd:nonNegativeInteger ;
+	nif:endIndex "82"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=171,178>
+	nif:annotationUnit ann:annotation18 ;
+	nif:anchorOf "Catalan" ;
+	nif:beginIndex "171"^^xsd:nonNegativeInteger ;
+	nif:endIndex "178"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:19 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q29 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=75,82>
+	nif:annotationUnit ann:annotation19 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "75"^^xsd:nonNegativeInteger ;
+	nif:endIndex "82"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=334,339>
+	nif:annotationUnit ann:annotation19 ;
+	nif:anchorOf "Spain" ;
+	nif:beginIndex "334"^^xsd:nonNegativeInteger ;
+	nif:endIndex "339"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:20 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q142 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=75,82>
+	nif:annotationUnit ann:annotation20 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "75"^^xsd:nonNegativeInteger ;
+	nif:endIndex "82"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=344,350>
+	nif:annotationUnit ann:annotation20 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "344"^^xsd:nonNegativeInteger ;
+	nif:endIndex "350"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:21 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P530 ;
+	nif:object wd:Q142 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=75,82>
+	nif:annotationUnit ann:annotation21 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "75"^^xsd:nonNegativeInteger ;
+	nif:endIndex "82"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=344,350>
+	nif:annotationUnit ann:annotation21 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "344"^^xsd:nonNegativeInteger ;
+	nif:endIndex "350"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:22 a nif:AnnotationUnit ;
+	nif:subject wd:Q7026 ;
+	nif:predicate wdt:P2341 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=84,91>
+	nif:annotationUnit ann:annotation22 ;
+	nif:anchorOf "Catalan" ;
+	nif:beginIndex "84"^^xsd:nonNegativeInteger ;
+	nif:endIndex "91"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=0,7>
+	nif:annotationUnit ann:annotation22 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+	nif:endIndex "7"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:23 a nif:AnnotationUnit ;
+	nif:subject wd:Q7026 ;
+	nif:predicate wdt:P17 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=84,91>
+	nif:annotationUnit ann:annotation23 ;
+	nif:anchorOf "Catalan" ;
+	nif:beginIndex "84"^^xsd:nonNegativeInteger ;
+	nif:endIndex "91"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=0,7>
+	nif:annotationUnit ann:annotation23 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+	nif:endIndex "7"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:24 a nif:AnnotationUnit ;
+	nif:subject wd:Q7026 ;
+	nif:predicate wdt:P2341 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=84,91>
+	nif:annotationUnit ann:annotation24 ;
+	nif:anchorOf "Catalan" ;
+	nif:beginIndex "84"^^xsd:nonNegativeInteger ;
+	nif:endIndex "91"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=75,82>
+	nif:annotationUnit ann:annotation24 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "75"^^xsd:nonNegativeInteger ;
+	nif:endIndex "82"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:25 a nif:AnnotationUnit ;
+	nif:subject wd:Q7026 ;
+	nif:predicate wdt:P17 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=84,91>
+	nif:annotationUnit ann:annotation25 ;
+	nif:anchorOf "Catalan" ;
+	nif:beginIndex "84"^^xsd:nonNegativeInteger ;
+	nif:endIndex "91"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=75,82>
+	nif:annotationUnit ann:annotation25 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "75"^^xsd:nonNegativeInteger ;
+	nif:endIndex "82"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:26 a nif:AnnotationUnit ;
+	nif:subject wd:Q7026 ;
+	nif:predicate wdt:P2341 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=84,91>
+	nif:annotationUnit ann:annotation26 ;
+	nif:anchorOf "Catalan" ;
+	nif:beginIndex "84"^^xsd:nonNegativeInteger ;
+	nif:endIndex "91"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=162,169>
+	nif:annotationUnit ann:annotation26 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "162"^^xsd:nonNegativeInteger ;
+	nif:endIndex "169"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:27 a nif:AnnotationUnit ;
+	nif:subject wd:Q7026 ;
+	nif:predicate wdt:P17 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=84,91>
+	nif:annotationUnit ann:annotation27 ;
+	nif:anchorOf "Catalan" ;
+	nif:beginIndex "84"^^xsd:nonNegativeInteger ;
+	nif:endIndex "91"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=162,169>
+	nif:annotationUnit ann:annotation27 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "162"^^xsd:nonNegativeInteger ;
+	nif:endIndex "169"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:28 a nif:AnnotationUnit ;
+	nif:subject wd:Q7026 ;
+	nif:predicate wdt:P17 ;
+	nif:object wd:Q29 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=84,91>
+	nif:annotationUnit ann:annotation28 ;
+	nif:anchorOf "Catalan" ;
+	nif:beginIndex "84"^^xsd:nonNegativeInteger ;
+	nif:endIndex "91"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=334,339>
+	nif:annotationUnit ann:annotation28 ;
+	nif:anchorOf "Spain" ;
+	nif:beginIndex "334"^^xsd:nonNegativeInteger ;
+	nif:endIndex "339"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:29 a nif:AnnotationUnit ;
+	nif:subject wd:Q7026 ;
+	nif:predicate wdt:P17 ;
+	nif:object wd:Q142 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=84,91>
+	nif:annotationUnit ann:annotation29 ;
+	nif:anchorOf "Catalan" ;
+	nif:beginIndex "84"^^xsd:nonNegativeInteger ;
+	nif:endIndex "91"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=344,350>
+	nif:annotationUnit ann:annotation29 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "344"^^xsd:nonNegativeInteger ;
+	nif:endIndex "350"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:30 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P37 ;
+	nif:object wd:Q7026 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=162,169>
+	nif:annotationUnit ann:annotation30 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "162"^^xsd:nonNegativeInteger ;
+	nif:endIndex "169"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=84,91>
+	nif:annotationUnit ann:annotation30 ;
+	nif:anchorOf "Catalan" ;
+	nif:beginIndex "84"^^xsd:nonNegativeInteger ;
+	nif:endIndex "91"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:31 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P37 ;
+	nif:object wd:Q7026 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=162,169>
+	nif:annotationUnit ann:annotation31 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "162"^^xsd:nonNegativeInteger ;
+	nif:endIndex "169"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=171,178>
+	nif:annotationUnit ann:annotation31 ;
+	nif:anchorOf "Catalan" ;
+	nif:beginIndex "171"^^xsd:nonNegativeInteger ;
+	nif:endIndex "178"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:32 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q29 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=162,169>
+	nif:annotationUnit ann:annotation32 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "162"^^xsd:nonNegativeInteger ;
+	nif:endIndex "169"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=334,339>
+	nif:annotationUnit ann:annotation32 ;
+	nif:anchorOf "Spain" ;
+	nif:beginIndex "334"^^xsd:nonNegativeInteger ;
+	nif:endIndex "339"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:33 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q142 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=162,169>
+	nif:annotationUnit ann:annotation33 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "162"^^xsd:nonNegativeInteger ;
+	nif:endIndex "169"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=344,350>
+	nif:annotationUnit ann:annotation33 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "344"^^xsd:nonNegativeInteger ;
+	nif:endIndex "350"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:34 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P530 ;
+	nif:object wd:Q142 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=162,169>
+	nif:annotationUnit ann:annotation34 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "162"^^xsd:nonNegativeInteger ;
+	nif:endIndex "169"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=344,350>
+	nif:annotationUnit ann:annotation34 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "344"^^xsd:nonNegativeInteger ;
+	nif:endIndex "350"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:35 a nif:AnnotationUnit ;
+	nif:subject wd:Q7026 ;
+	nif:predicate wdt:P2341 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=171,178>
+	nif:annotationUnit ann:annotation35 ;
+	nif:anchorOf "Catalan" ;
+	nif:beginIndex "171"^^xsd:nonNegativeInteger ;
+	nif:endIndex "178"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=0,7>
+	nif:annotationUnit ann:annotation35 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+	nif:endIndex "7"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:36 a nif:AnnotationUnit ;
+	nif:subject wd:Q7026 ;
+	nif:predicate wdt:P17 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=171,178>
+	nif:annotationUnit ann:annotation36 ;
+	nif:anchorOf "Catalan" ;
+	nif:beginIndex "171"^^xsd:nonNegativeInteger ;
+	nif:endIndex "178"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=0,7>
+	nif:annotationUnit ann:annotation36 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+	nif:endIndex "7"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:37 a nif:AnnotationUnit ;
+	nif:subject wd:Q7026 ;
+	nif:predicate wdt:P2341 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=171,178>
+	nif:annotationUnit ann:annotation37 ;
+	nif:anchorOf "Catalan" ;
+	nif:beginIndex "171"^^xsd:nonNegativeInteger ;
+	nif:endIndex "178"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=75,82>
+	nif:annotationUnit ann:annotation37 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "75"^^xsd:nonNegativeInteger ;
+	nif:endIndex "82"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:38 a nif:AnnotationUnit ;
+	nif:subject wd:Q7026 ;
+	nif:predicate wdt:P17 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=171,178>
+	nif:annotationUnit ann:annotation38 ;
+	nif:anchorOf "Catalan" ;
+	nif:beginIndex "171"^^xsd:nonNegativeInteger ;
+	nif:endIndex "178"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=75,82>
+	nif:annotationUnit ann:annotation38 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "75"^^xsd:nonNegativeInteger ;
+	nif:endIndex "82"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:39 a nif:AnnotationUnit ;
+	nif:subject wd:Q7026 ;
+	nif:predicate wdt:P2341 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=171,178>
+	nif:annotationUnit ann:annotation39 ;
+	nif:anchorOf "Catalan" ;
+	nif:beginIndex "171"^^xsd:nonNegativeInteger ;
+	nif:endIndex "178"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=162,169>
+	nif:annotationUnit ann:annotation39 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "162"^^xsd:nonNegativeInteger ;
+	nif:endIndex "169"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:40 a nif:AnnotationUnit ;
+	nif:subject wd:Q7026 ;
+	nif:predicate wdt:P17 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=171,178>
+	nif:annotationUnit ann:annotation40 ;
+	nif:anchorOf "Catalan" ;
+	nif:beginIndex "171"^^xsd:nonNegativeInteger ;
+	nif:endIndex "178"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=162,169>
+	nif:annotationUnit ann:annotation40 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "162"^^xsd:nonNegativeInteger ;
+	nif:endIndex "169"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:41 a nif:AnnotationUnit ;
+	nif:subject wd:Q7026 ;
+	nif:predicate wdt:P17 ;
+	nif:object wd:Q29 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=171,178>
+	nif:annotationUnit ann:annotation41 ;
+	nif:anchorOf "Catalan" ;
+	nif:beginIndex "171"^^xsd:nonNegativeInteger ;
+	nif:endIndex "178"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=334,339>
+	nif:annotationUnit ann:annotation41 ;
+	nif:anchorOf "Spain" ;
+	nif:beginIndex "334"^^xsd:nonNegativeInteger ;
+	nif:endIndex "339"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:42 a nif:AnnotationUnit ;
+	nif:subject wd:Q7026 ;
+	nif:predicate wdt:P17 ;
+	nif:object wd:Q142 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=171,178>
+	nif:annotationUnit ann:annotation42 ;
+	nif:anchorOf "Catalan" ;
+	nif:beginIndex "171"^^xsd:nonNegativeInteger ;
+	nif:endIndex "178"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=344,350>
+	nif:annotationUnit ann:annotation42 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "344"^^xsd:nonNegativeInteger ;
+	nif:endIndex "350"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:43 a nif:AnnotationUnit ;
+	nif:subject wd:Q12837 ;
+	nif:predicate wdt:P527 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=255,274>
+	nif:annotationUnit ann:annotation43 ;
+	nif:anchorOf "Southwestern Europe" ;
+	nif:beginIndex "255"^^xsd:nonNegativeInteger ;
+	nif:endIndex "274"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q12837 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=0,7>
+	nif:annotationUnit ann:annotation43 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+	nif:endIndex "7"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:44 a nif:AnnotationUnit ;
+	nif:subject wd:Q12837 ;
+	nif:predicate wdt:P527 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=255,274>
+	nif:annotationUnit ann:annotation44 ;
+	nif:anchorOf "Southwestern Europe" ;
+	nif:beginIndex "255"^^xsd:nonNegativeInteger ;
+	nif:endIndex "274"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q12837 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=75,82>
+	nif:annotationUnit ann:annotation44 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "75"^^xsd:nonNegativeInteger ;
+	nif:endIndex "82"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:45 a nif:AnnotationUnit ;
+	nif:subject wd:Q12837 ;
+	nif:predicate wdt:P527 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=255,274>
+	nif:annotationUnit ann:annotation45 ;
+	nif:anchorOf "Southwestern Europe" ;
+	nif:beginIndex "255"^^xsd:nonNegativeInteger ;
+	nif:endIndex "274"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q12837 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=162,169>
+	nif:annotationUnit ann:annotation45 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "162"^^xsd:nonNegativeInteger ;
+	nif:endIndex "169"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:46 a nif:AnnotationUnit ;
+	nif:subject wd:Q12837 ;
+	nif:predicate wdt:P527 ;
+	nif:object wd:Q29 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=255,274>
+	nif:annotationUnit ann:annotation46 ;
+	nif:anchorOf "Southwestern Europe" ;
+	nif:beginIndex "255"^^xsd:nonNegativeInteger ;
+	nif:endIndex "274"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q12837 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=334,339>
+	nif:annotationUnit ann:annotation46 ;
+	nif:anchorOf "Spain" ;
+	nif:beginIndex "334"^^xsd:nonNegativeInteger ;
+	nif:endIndex "339"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:47 a nif:AnnotationUnit ;
+	nif:subject wd:Q29 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=334,339>
+	nif:annotationUnit ann:annotation47 ;
+	nif:anchorOf "Spain" ;
+	nif:beginIndex "334"^^xsd:nonNegativeInteger ;
+	nif:endIndex "339"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=0,7>
+	nif:annotationUnit ann:annotation47 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+	nif:endIndex "7"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:48 a nif:AnnotationUnit ;
+	nif:subject wd:Q29 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=334,339>
+	nif:annotationUnit ann:annotation48 ;
+	nif:anchorOf "Spain" ;
+	nif:beginIndex "334"^^xsd:nonNegativeInteger ;
+	nif:endIndex "339"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=75,82>
+	nif:annotationUnit ann:annotation48 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "75"^^xsd:nonNegativeInteger ;
+	nif:endIndex "82"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:49 a nif:AnnotationUnit ;
+	nif:subject wd:Q29 ;
+	nif:predicate wdt:P37 ;
+	nif:object wd:Q7026 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=334,339>
+	nif:annotationUnit ann:annotation49 ;
+	nif:anchorOf "Spain" ;
+	nif:beginIndex "334"^^xsd:nonNegativeInteger ;
+	nif:endIndex "339"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=84,91>
+	nif:annotationUnit ann:annotation49 ;
+	nif:anchorOf "Catalan" ;
+	nif:beginIndex "84"^^xsd:nonNegativeInteger ;
+	nif:endIndex "91"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:50 a nif:AnnotationUnit ;
+	nif:subject wd:Q29 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=334,339>
+	nif:annotationUnit ann:annotation50 ;
+	nif:anchorOf "Spain" ;
+	nif:beginIndex "334"^^xsd:nonNegativeInteger ;
+	nif:endIndex "339"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=162,169>
+	nif:annotationUnit ann:annotation50 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "162"^^xsd:nonNegativeInteger ;
+	nif:endIndex "169"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:51 a nif:AnnotationUnit ;
+	nif:subject wd:Q29 ;
+	nif:predicate wdt:P37 ;
+	nif:object wd:Q7026 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=334,339>
+	nif:annotationUnit ann:annotation51 ;
+	nif:anchorOf "Spain" ;
+	nif:beginIndex "334"^^xsd:nonNegativeInteger ;
+	nif:endIndex "339"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=171,178>
+	nif:annotationUnit ann:annotation51 ;
+	nif:anchorOf "Catalan" ;
+	nif:beginIndex "171"^^xsd:nonNegativeInteger ;
+	nif:endIndex "178"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:52 a nif:AnnotationUnit ;
+	nif:subject wd:Q29 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q142 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=334,339>
+	nif:annotationUnit ann:annotation52 ;
+	nif:anchorOf "Spain" ;
+	nif:beginIndex "334"^^xsd:nonNegativeInteger ;
+	nif:endIndex "339"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=344,350>
+	nif:annotationUnit ann:annotation52 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "344"^^xsd:nonNegativeInteger ;
+	nif:endIndex "350"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:53 a nif:AnnotationUnit ;
+	nif:subject wd:Q142 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=344,350>
+	nif:annotationUnit ann:annotation53 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "344"^^xsd:nonNegativeInteger ;
+	nif:endIndex "350"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=0,7>
+	nif:annotationUnit ann:annotation53 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+	nif:endIndex "7"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:54 a nif:AnnotationUnit ;
+	nif:subject wd:Q142 ;
+	nif:predicate wdt:P530 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=344,350>
+	nif:annotationUnit ann:annotation54 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "344"^^xsd:nonNegativeInteger ;
+	nif:endIndex "350"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=0,7>
+	nif:annotationUnit ann:annotation54 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+	nif:endIndex "7"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:55 a nif:AnnotationUnit ;
+	nif:subject wd:Q142 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=344,350>
+	nif:annotationUnit ann:annotation55 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "344"^^xsd:nonNegativeInteger ;
+	nif:endIndex "350"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=75,82>
+	nif:annotationUnit ann:annotation55 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "75"^^xsd:nonNegativeInteger ;
+	nif:endIndex "82"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:56 a nif:AnnotationUnit ;
+	nif:subject wd:Q142 ;
+	nif:predicate wdt:P530 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=344,350>
+	nif:annotationUnit ann:annotation56 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "344"^^xsd:nonNegativeInteger ;
+	nif:endIndex "350"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=75,82>
+	nif:annotationUnit ann:annotation56 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "75"^^xsd:nonNegativeInteger ;
+	nif:endIndex "82"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:57 a nif:AnnotationUnit ;
+	nif:subject wd:Q142 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=344,350>
+	nif:annotationUnit ann:annotation57 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "344"^^xsd:nonNegativeInteger ;
+	nif:endIndex "350"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=162,169>
+	nif:annotationUnit ann:annotation57 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "162"^^xsd:nonNegativeInteger ;
+	nif:endIndex "169"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:58 a nif:AnnotationUnit ;
+	nif:subject wd:Q142 ;
+	nif:predicate wdt:P530 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=344,350>
+	nif:annotationUnit ann:annotation58 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "344"^^xsd:nonNegativeInteger ;
+	nif:endIndex "350"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=162,169>
+	nif:annotationUnit ann:annotation58 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "162"^^xsd:nonNegativeInteger ;
+	nif:endIndex "169"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:59 a nif:AnnotationUnit ;
+	nif:subject wd:Q142 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q29 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=344,350>
+	nif:annotationUnit ann:annotation59 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "344"^^xsd:nonNegativeInteger ;
+	nif:endIndex "350"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=334,339>
+	nif:annotationUnit ann:annotation59 ;
+	nif:anchorOf "Spain" ;
+	nif:beginIndex "334"^^xsd:nonNegativeInteger ;
+	nif:endIndex "339"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:60 a nif:AnnotationUnit ;
+	nif:subject wd:Q29 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q142 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=520,527>
+	nif:annotationUnit ann:annotation60 ;
+	nif:anchorOf "Spanish" ;
+	nif:beginIndex "520"^^xsd:nonNegativeInteger ;
+	nif:endIndex "527"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=581,587>
+	nif:annotationUnit ann:annotation60 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "581"^^xsd:nonNegativeInteger ;
+	nif:endIndex "587"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:61 a nif:AnnotationUnit ;
+	nif:subject wd:Q29 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=520,527>
+	nif:annotationUnit ann:annotation61 ;
+	nif:anchorOf "Spanish" ;
+	nif:beginIndex "520"^^xsd:nonNegativeInteger ;
+	nif:endIndex "527"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=439,441>
+	nif:annotationUnit ann:annotation61 ;
+	nif:anchorOf "It" ;
+	nif:beginIndex "439"^^xsd:nonNegativeInteger ;
+	nif:endIndex "441"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Simple_Coreference" .
+
+
+
+ann:62 a nif:AnnotationUnit ;
+	nif:subject wd:Q142 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q29 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=581,587>
+	nif:annotationUnit ann:annotation62 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "581"^^xsd:nonNegativeInteger ;
+	nif:endIndex "587"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=520,527>
+	nif:annotationUnit ann:annotation62 ;
+	nif:anchorOf "Spanish" ;
+	nif:beginIndex "520"^^xsd:nonNegativeInteger ;
+	nif:endIndex "527"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:63 a nif:AnnotationUnit ;
+	nif:subject wd:Q142 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=581,587>
+	nif:annotationUnit ann:annotation63 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "581"^^xsd:nonNegativeInteger ;
+	nif:endIndex "587"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=439,441>
+	nif:annotationUnit ann:annotation63 ;
+	nif:anchorOf "It" ;
+	nif:beginIndex "439"^^xsd:nonNegativeInteger ;
+	nif:endIndex "441"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Simple_Coreference" .
+
+
+
+ann:64 a nif:AnnotationUnit ;
+	nif:subject wd:Q142 ;
+	nif:predicate wdt:P530 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=581,587>
+	nif:annotationUnit ann:annotation64 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "581"^^xsd:nonNegativeInteger ;
+	nif:endIndex "587"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=439,441>
+	nif:annotationUnit ann:annotation64 ;
+	nif:anchorOf "It" ;
+	nif:beginIndex "439"^^xsd:nonNegativeInteger ;
+	nif:endIndex "441"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Simple_Coreference" .
+
+
+
+ann:65 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q29 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=439,441>
+	nif:annotationUnit ann:annotation65 ;
+	nif:anchorOf "It" ;
+	nif:beginIndex "439"^^xsd:nonNegativeInteger ;
+	nif:endIndex "441"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Simple_Coreference" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=520,527>
+	nif:annotationUnit ann:annotation65 ;
+	nif:anchorOf "Spanish" ;
+	nif:beginIndex "520"^^xsd:nonNegativeInteger ;
+	nif:endIndex "527"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:66 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q142 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=439,441>
+	nif:annotationUnit ann:annotation66 ;
+	nif:anchorOf "It" ;
+	nif:beginIndex "439"^^xsd:nonNegativeInteger ;
+	nif:endIndex "441"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Simple_Coreference" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=581,587>
+	nif:annotationUnit ann:annotation66 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "581"^^xsd:nonNegativeInteger ;
+	nif:endIndex "587"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:67 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P530 ;
+	nif:object wd:Q142 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=439,441>
+	nif:annotationUnit ann:annotation67 ;
+	nif:anchorOf "It" ;
+	nif:beginIndex "439"^^xsd:nonNegativeInteger ;
+	nif:endIndex "441"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Simple_Coreference" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=581,587>
+	nif:annotationUnit ann:annotation67 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "581"^^xsd:nonNegativeInteger ;
+	nif:endIndex "587"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:68 a nif:AnnotationUnit ;
+	nif:subject wd:Q458 ;
+	nif:predicate wdt:P38 ;
+	nif:object wd:Q4916 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=1044,1058>
+	nif:annotationUnit ann:annotation68 ;
+	nif:anchorOf "European Union" ;
+	nif:beginIndex "1044"^^xsd:nonNegativeInteger ;
+	nif:endIndex "1058"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q458 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=1068,1072>
+	nif:annotationUnit ann:annotation68 ;
+	nif:anchorOf "Euro" ;
+	nif:beginIndex "1068"^^xsd:nonNegativeInteger ;
+	nif:endIndex "1072"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q4916 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:69 a nif:AnnotationUnit ;
+	nif:subject wd:Q458 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=1044,1058>
+	nif:annotationUnit ann:annotation69 ;
+	nif:anchorOf "European Union" ;
+	nif:beginIndex "1044"^^xsd:nonNegativeInteger ;
+	nif:endIndex "1058"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q458 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=1018,1020>
+	nif:annotationUnit ann:annotation69 ;
+	nif:anchorOf "It" ;
+	nif:beginIndex "1018"^^xsd:nonNegativeInteger ;
+	nif:endIndex "1020"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Simple_Coreference" .
+
+
+
+ann:70 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P38 ;
+	nif:object wd:Q4916 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=1018,1020>
+	nif:annotationUnit ann:annotation70 ;
+	nif:anchorOf "It" ;
+	nif:beginIndex "1018"^^xsd:nonNegativeInteger ;
+	nif:endIndex "1020"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Simple_Coreference" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=1068,1072>
+	nif:annotationUnit ann:annotation70 ;
+	nif:anchorOf "Euro" ;
+	nif:beginIndex "1068"^^xsd:nonNegativeInteger ;
+	nif:endIndex "1072"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q4916 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:71 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P729 ;
+	nif:object "1970-01-22T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=1268,1275>
+	nif:annotationUnit ann:annotation71 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "1268"^^xsd:nonNegativeInteger ;
+	nif:endIndex "1275"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=1295,1305>
+	nif:annotationUnit ann:annotation71 ;
+	nif:anchorOf "1970-01-22" ;
+	nif:beginIndex "1295"^^xsd:nonNegativeInteger ;
+	nif:endIndex "1305"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef "1970-01-22T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	a nif:Phrase ;
+	rdfs:comment "Date_Linker" .
+
+
+
+ann:72 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q29 ;
+	rdfs:comment "SPOAligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=0,7>
+	nif:annotationUnit ann:annotation72 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+	nif:endIndex "7"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=322,333>
+	nif:annotationUnit ann:annotation72 ;
+	nif:anchorOf "bordered by" ;
+	nif:beginIndex "322"^^xsd:nonNegativeInteger ;
+	nif:endIndex "333"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wdt:P47 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Property_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=334,339>
+	nif:annotationUnit ann:annotation72 ;
+	nif:anchorOf "Spain" ;
+	nif:beginIndex "334"^^xsd:nonNegativeInteger ;
+	nif:endIndex "339"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:73 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q142 ;
+	rdfs:comment "SPOAligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=0,7>
+	nif:annotationUnit ann:annotation73 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+	nif:endIndex "7"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=322,333>
+	nif:annotationUnit ann:annotation73 ;
+	nif:anchorOf "bordered by" ;
+	nif:beginIndex "322"^^xsd:nonNegativeInteger ;
+	nif:endIndex "333"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wdt:P47 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Property_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=344,350>
+	nif:annotationUnit ann:annotation73 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "344"^^xsd:nonNegativeInteger ;
+	nif:endIndex "350"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:74 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q29 ;
+	rdfs:comment "SPOAligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=75,82>
+	nif:annotationUnit ann:annotation74 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "75"^^xsd:nonNegativeInteger ;
+	nif:endIndex "82"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=322,333>
+	nif:annotationUnit ann:annotation74 ;
+	nif:anchorOf "bordered by" ;
+	nif:beginIndex "322"^^xsd:nonNegativeInteger ;
+	nif:endIndex "333"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wdt:P47 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Property_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=334,339>
+	nif:annotationUnit ann:annotation74 ;
+	nif:anchorOf "Spain" ;
+	nif:beginIndex "334"^^xsd:nonNegativeInteger ;
+	nif:endIndex "339"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:75 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q142 ;
+	rdfs:comment "SPOAligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=75,82>
+	nif:annotationUnit ann:annotation75 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "75"^^xsd:nonNegativeInteger ;
+	nif:endIndex "82"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=322,333>
+	nif:annotationUnit ann:annotation75 ;
+	nif:anchorOf "bordered by" ;
+	nif:beginIndex "322"^^xsd:nonNegativeInteger ;
+	nif:endIndex "333"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wdt:P47 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Property_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=344,350>
+	nif:annotationUnit ann:annotation75 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "344"^^xsd:nonNegativeInteger ;
+	nif:endIndex "350"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:76 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q29 ;
+	rdfs:comment "SPOAligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=162,169>
+	nif:annotationUnit ann:annotation76 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "162"^^xsd:nonNegativeInteger ;
+	nif:endIndex "169"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=322,333>
+	nif:annotationUnit ann:annotation76 ;
+	nif:anchorOf "bordered by" ;
+	nif:beginIndex "322"^^xsd:nonNegativeInteger ;
+	nif:endIndex "333"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wdt:P47 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Property_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=334,339>
+	nif:annotationUnit ann:annotation76 ;
+	nif:anchorOf "Spain" ;
+	nif:beginIndex "334"^^xsd:nonNegativeInteger ;
+	nif:endIndex "339"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:77 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q142 ;
+	rdfs:comment "SPOAligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=162,169>
+	nif:annotationUnit ann:annotation77 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "162"^^xsd:nonNegativeInteger ;
+	nif:endIndex "169"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=322,333>
+	nif:annotationUnit ann:annotation77 ;
+	nif:anchorOf "bordered by" ;
+	nif:beginIndex "322"^^xsd:nonNegativeInteger ;
+	nif:endIndex "333"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wdt:P47 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Property_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=344,350>
+	nif:annotationUnit ann:annotation77 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "344"^^xsd:nonNegativeInteger ;
+	nif:endIndex "350"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:78 a nif:AnnotationUnit ;
+	nif:subject wd:Q29 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "SPOAligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=334,339>
+	nif:annotationUnit ann:annotation78 ;
+	nif:anchorOf "Spain" ;
+	nif:beginIndex "334"^^xsd:nonNegativeInteger ;
+	nif:endIndex "339"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=322,333>
+	nif:annotationUnit ann:annotation78 ;
+	nif:anchorOf "bordered by" ;
+	nif:beginIndex "322"^^xsd:nonNegativeInteger ;
+	nif:endIndex "333"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wdt:P47 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Property_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=0,7>
+	nif:annotationUnit ann:annotation78 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+	nif:endIndex "7"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:79 a nif:AnnotationUnit ;
+	nif:subject wd:Q29 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "SPOAligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=334,339>
+	nif:annotationUnit ann:annotation79 ;
+	nif:anchorOf "Spain" ;
+	nif:beginIndex "334"^^xsd:nonNegativeInteger ;
+	nif:endIndex "339"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=322,333>
+	nif:annotationUnit ann:annotation79 ;
+	nif:anchorOf "bordered by" ;
+	nif:beginIndex "322"^^xsd:nonNegativeInteger ;
+	nif:endIndex "333"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wdt:P47 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Property_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=75,82>
+	nif:annotationUnit ann:annotation79 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "75"^^xsd:nonNegativeInteger ;
+	nif:endIndex "82"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:80 a nif:AnnotationUnit ;
+	nif:subject wd:Q29 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "SPOAligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=334,339>
+	nif:annotationUnit ann:annotation80 ;
+	nif:anchorOf "Spain" ;
+	nif:beginIndex "334"^^xsd:nonNegativeInteger ;
+	nif:endIndex "339"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=322,333>
+	nif:annotationUnit ann:annotation80 ;
+	nif:anchorOf "bordered by" ;
+	nif:beginIndex "322"^^xsd:nonNegativeInteger ;
+	nif:endIndex "333"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wdt:P47 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Property_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=162,169>
+	nif:annotationUnit ann:annotation80 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "162"^^xsd:nonNegativeInteger ;
+	nif:endIndex "169"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:81 a nif:AnnotationUnit ;
+	nif:subject wd:Q29 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q142 ;
+	rdfs:comment "SPOAligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=334,339>
+	nif:annotationUnit ann:annotation81 ;
+	nif:anchorOf "Spain" ;
+	nif:beginIndex "334"^^xsd:nonNegativeInteger ;
+	nif:endIndex "339"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=322,333>
+	nif:annotationUnit ann:annotation81 ;
+	nif:anchorOf "bordered by" ;
+	nif:beginIndex "322"^^xsd:nonNegativeInteger ;
+	nif:endIndex "333"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wdt:P47 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Property_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=344,350>
+	nif:annotationUnit ann:annotation81 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "344"^^xsd:nonNegativeInteger ;
+	nif:endIndex "350"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:82 a nif:AnnotationUnit ;
+	nif:subject wd:Q142 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "SPOAligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=344,350>
+	nif:annotationUnit ann:annotation82 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "344"^^xsd:nonNegativeInteger ;
+	nif:endIndex "350"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=322,333>
+	nif:annotationUnit ann:annotation82 ;
+	nif:anchorOf "bordered by" ;
+	nif:beginIndex "322"^^xsd:nonNegativeInteger ;
+	nif:endIndex "333"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wdt:P47 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Property_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=0,7>
+	nif:annotationUnit ann:annotation82 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+	nif:endIndex "7"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:83 a nif:AnnotationUnit ;
+	nif:subject wd:Q142 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "SPOAligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=344,350>
+	nif:annotationUnit ann:annotation83 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "344"^^xsd:nonNegativeInteger ;
+	nif:endIndex "350"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=322,333>
+	nif:annotationUnit ann:annotation83 ;
+	nif:anchorOf "bordered by" ;
+	nif:beginIndex "322"^^xsd:nonNegativeInteger ;
+	nif:endIndex "333"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wdt:P47 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Property_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=75,82>
+	nif:annotationUnit ann:annotation83 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "75"^^xsd:nonNegativeInteger ;
+	nif:endIndex "82"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:84 a nif:AnnotationUnit ;
+	nif:subject wd:Q142 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "SPOAligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=344,350>
+	nif:annotationUnit ann:annotation84 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "344"^^xsd:nonNegativeInteger ;
+	nif:endIndex "350"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=322,333>
+	nif:annotationUnit ann:annotation84 ;
+	nif:anchorOf "bordered by" ;
+	nif:beginIndex "322"^^xsd:nonNegativeInteger ;
+	nif:endIndex "333"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wdt:P47 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Property_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=162,169>
+	nif:annotationUnit ann:annotation84 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "162"^^xsd:nonNegativeInteger ;
+	nif:endIndex "169"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:85 a nif:AnnotationUnit ;
+	nif:subject wd:Q142 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q29 ;
+	rdfs:comment "SPOAligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=344,350>
+	nif:annotationUnit ann:annotation85 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "344"^^xsd:nonNegativeInteger ;
+	nif:endIndex "350"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=322,333>
+	nif:annotationUnit ann:annotation85 ;
+	nif:anchorOf "bordered by" ;
+	nif:beginIndex "322"^^xsd:nonNegativeInteger ;
+	nif:endIndex "333"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wdt:P47 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Property_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=334,339>
+	nif:annotationUnit ann:annotation85 ;
+	nif:anchorOf "Spain" ;
+	nif:beginIndex "334"^^xsd:nonNegativeInteger ;
+	nif:endIndex "339"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:86 a nif:AnnotationUnit ;
+	nif:subject wd:Q458 ;
+	nif:predicate wdt:P38 ;
+	nif:object wd:Q4916 ;
+	rdfs:comment "SPOAligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=1044,1058>
+	nif:annotationUnit ann:annotation86 ;
+	nif:anchorOf "European Union" ;
+	nif:beginIndex "1044"^^xsd:nonNegativeInteger ;
+	nif:endIndex "1058"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q458 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=1089,1097>
+	nif:annotationUnit ann:annotation86 ;
+	nif:anchorOf "currency" ;
+	nif:beginIndex "1089"^^xsd:nonNegativeInteger ;
+	nif:endIndex "1097"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wdt:P38 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Property_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=1068,1072>
+	nif:annotationUnit ann:annotation86 ;
+	nif:anchorOf "Euro" ;
+	nif:beginIndex "1068"^^xsd:nonNegativeInteger ;
+	nif:endIndex "1072"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q4916 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:87 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P38 ;
+	nif:object wd:Q4916 ;
+	rdfs:comment "SPOAligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=1018,1020>
+	nif:annotationUnit ann:annotation87 ;
+	nif:anchorOf "It" ;
+	nif:beginIndex "1018"^^xsd:nonNegativeInteger ;
+	nif:endIndex "1020"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Simple_Coreference" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=1089,1097>
+	nif:annotationUnit ann:annotation87 ;
+	nif:anchorOf "currency" ;
+	nif:beginIndex "1089"^^xsd:nonNegativeInteger ;
+	nif:endIndex "1097"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wdt:P38 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Property_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=1068,1072>
+	nif:annotationUnit ann:annotation87 ;
+	nif:anchorOf "Euro" ;
+	nif:beginIndex "1068"^^xsd:nonNegativeInteger ;
+	nif:endIndex "1072"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q4916 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:88 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P729 ;
+	nif:object "1970-01-22T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	rdfs:comment "SPOAligner" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=1268,1275>
+	nif:annotationUnit ann:annotation88 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "1268"^^xsd:nonNegativeInteger ;
+	nif:endIndex "1275"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=1276,1291>
+	nif:annotationUnit ann:annotation88 ;
+	nif:anchorOf "entered service" ;
+	nif:beginIndex "1276"^^xsd:nonNegativeInteger ;
+	nif:endIndex "1291"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef wdt:P729 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Property_Linker" .
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=1295,1305>
+	nif:annotationUnit ann:annotation88 ;
+	nif:anchorOf "1970-01-22" ;
+	nif:beginIndex "1295"^^xsd:nonNegativeInteger ;
+	nif:endIndex "1305"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;
+	itsrdf:taIdentRef "1970-01-22T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	a nif:Phrase ;
+	rdfs:comment "Date_Linker" .
+
+
+
+<http://www.wikidata.org/entity/Q7026?nif=context>
+	nif:beginIndex "0"^^xsd:nonNegativeInteger;
+	nif:endIndex "3510"^^xsd:nonNegativeInteger;
+	nif:isString """Catalan (/ˈkætəlæn/; autonym: català [kətəˈla] [kataˈla]) is a Romance language named for its origins in Catalonia, in what is northeastern Spain and adjoining parts of France. It is the national and only official language of Andorra, and a co-official language of the Spanish autonomous communities of Catalonia, the Balearic Islands, and Valencia (where the language is known as Valencian, and there exist regional standards). It also has semi-official status in the city of Alghero on the Italian island of Sardinia. It is also spoken with no official recognition in parts of the Spanish autonomous communities of Aragon (La Franja) and Murcia (Carche), and in the historic French region of Roussillon/Northern Catalonia, roughly equivalent to the department of Pyrénées-Orientales. According to the Statistical Institute of Catalonia in 2008 the Catalan language is the second most commonly used in Catalonia, after Spanish, as a native or self-defining language. The Generalitat of Catalunya spends part of its annual budget on the promotion of the use of Catalan in Catalonia and in other territories. Catalan evolved from Vulgar Latin around the eastern Pyrenees in the 9th century. During the Low Middle Ages it saw a golden age as the literary and dominant language of the Crown of Aragon, and was widely used all over the Mediterranean. The union of Aragon with the other territories of Spain in 1479 marked the start of the decline of the language. In 1659 Spain ceded Northern Catalonia to France, and Catalan was banned in both states in the early 18th century. 19th-century Spain saw a Catalan literary revival, which culminated in the 1913 orthographic standardization, and the officialization of the language during the Second Spanish Republic (1931–39). However, the Francoist dictatorship (1939–75) banned the language again. Since the Spanish transition to democracy (1975–1982), Catalan has been recognized as an official language, language of education, and language of mass media, all of which have contributed to its increased prestige. There is no parallel in Europe of such a large, bilingual, non-state speech community. Catalan dialects are relatively uniform, and are mutually intelligible. They are divided into two blocks, Eastern and Western, differing mostly in pronunciation. The terms \"Catalan\" and \"Valencian\" (respectively used in Catalonia and the Valencian Community) are two different varieties of the same language. There are two institutions regulating the two standard varieties, the Institute of Catalan Studies in Catalonia and the Valencian Academy of the Language in Valencia. Catalan shares many traits with its neighboring Romance languages. However, despite being mostly situated in the Iberian Peninsula, Catalan differs more from Iberian Romance (such as Spanish and Portuguese) in terms of vocabulary, pronunciation, and grammar than from Gallo-Romance (Occitan, French, Gallo-Italic languages, etc.). These similarities are most notable with Occitan. Catalan has an inflectional grammar, with two genders (masculine, feminine), and two numbers (singular, plural). Pronouns are also inflected for case, animacy[citation needed] and politeness, and can be combined in very complex ways. Verbs are split in several paradigms and are inflected for person, number, tense, aspect, mood, and gender. In terms of pronunciation, Catalan has many words ending in a wide variety of consonants and some consonant clusters, in contrast with many other Romance languages.""" ;
+	nif:predLang <http://lexvo.org/id/iso639-3/eng> ;
+	a nif:Context .
+
+
+ann:0 a nif:AnnotationUnit ;
+	nif:subject wd:Q7026 ;
+	nif:predicate wdt:P17 ;
+	nif:object wd:Q29 ;
+	rdfs:comment "NoSubject-Triple-aligner" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=140,145>
+	nif:annotationUnit ann:annotation0 ;
+	nif:anchorOf "Spain" ;
+	nif:beginIndex "140"^^xsd:nonNegativeInteger ;
+	nif:endIndex "145"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:1 a nif:AnnotationUnit ;
+	nif:subject wd:Q7026 ;
+	nif:predicate wdt:P17 ;
+	nif:object wd:Q142 ;
+	rdfs:comment "NoSubject-Triple-aligner" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=169,175>
+	nif:annotationUnit ann:annotation1 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "169"^^xsd:nonNegativeInteger ;
+	nif:endIndex "175"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:2 a nif:AnnotationUnit ;
+	nif:subject wd:Q7026 ;
+	nif:predicate wdt:P2341 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "NoSubject-Triple-aligner" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=226,233>
+	nif:annotationUnit ann:annotation2 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "226"^^xsd:nonNegativeInteger ;
+	nif:endIndex "233"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:3 a nif:AnnotationUnit ;
+	nif:subject wd:Q7026 ;
+	nif:predicate wdt:P17 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "NoSubject-Triple-aligner" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=226,233>
+	nif:annotationUnit ann:annotation3 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "226"^^xsd:nonNegativeInteger ;
+	nif:endIndex "233"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:4 a nif:AnnotationUnit ;
+	nif:subject wd:Q7026 ;
+	nif:predicate wdt:P17 ;
+	nif:object wd:Q29 ;
+	rdfs:comment "NoSubject-Triple-aligner" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=1397,1402>
+	nif:annotationUnit ann:annotation4 ;
+	nif:anchorOf "Spain" ;
+	nif:beginIndex "1397"^^xsd:nonNegativeInteger ;
+	nif:endIndex "1402"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:5 a nif:AnnotationUnit ;
+	nif:subject wd:Q7026 ;
+	nif:predicate wdt:P17 ;
+	nif:object wd:Q29 ;
+	rdfs:comment "NoSubject-Triple-aligner" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=1468,1473>
+	nif:annotationUnit ann:annotation5 ;
+	nif:anchorOf "Spain" ;
+	nif:beginIndex "1468"^^xsd:nonNegativeInteger ;
+	nif:endIndex "1473"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:6 a nif:AnnotationUnit ;
+	nif:subject wd:Q7026 ;
+	nif:predicate wdt:P17 ;
+	nif:object wd:Q142 ;
+	rdfs:comment "NoSubject-Triple-aligner" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=1502,1508>
+	nif:annotationUnit ann:annotation6 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "1502"^^xsd:nonNegativeInteger ;
+	nif:endIndex "1508"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:7 a nif:AnnotationUnit ;
+	nif:subject wd:Q7026 ;
+	nif:predicate wdt:P17 ;
+	nif:object wd:Q29 ;
+	rdfs:comment "NoSubject-Triple-aligner" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=1588,1593>
+	nif:annotationUnit ann:annotation7 ;
+	nif:anchorOf "Spain" ;
+	nif:beginIndex "1588"^^xsd:nonNegativeInteger ;
+	nif:endIndex "1593"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:8 a nif:AnnotationUnit ;
+	nif:subject wd:Q7026 ;
+	nif:predicate wdt:P17 ;
+	nif:object wd:Q142 ;
+	rdfs:comment "NoSubject-Triple-aligner" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=2060,2065>
+	nif:annotationUnit ann:annotation8 ;
+	nif:anchorOf "There" ;
+	nif:beginIndex "2060"^^xsd:nonNegativeInteger ;
+	nif:endIndex "2065"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:9 a nif:AnnotationUnit ;
+	nif:subject wd:Q7026 ;
+	nif:predicate wdt:P17 ;
+	nif:object wd:Q142 ;
+	rdfs:comment "NoSubject-Triple-aligner" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=2456,2461>
+	nif:annotationUnit ann:annotation9 ;
+	nif:anchorOf "There" ;
+	nif:beginIndex "2456"^^xsd:nonNegativeInteger ;
+	nif:endIndex "2461"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:10 a nif:AnnotationUnit ;
+	nif:subject wd:Q7026 ;
+	nif:predicate wdt:P17 ;
+	nif:object wd:Q29 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=0,7>
+	nif:annotationUnit ann:annotation10 ;
+	nif:anchorOf "Catalan" ;
+	nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+	nif:endIndex "7"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=140,145>
+	nif:annotationUnit ann:annotation10 ;
+	nif:anchorOf "Spain" ;
+	nif:beginIndex "140"^^xsd:nonNegativeInteger ;
+	nif:endIndex "145"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:11 a nif:AnnotationUnit ;
+	nif:subject wd:Q7026 ;
+	nif:predicate wdt:P17 ;
+	nif:object wd:Q142 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=0,7>
+	nif:annotationUnit ann:annotation11 ;
+	nif:anchorOf "Catalan" ;
+	nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+	nif:endIndex "7"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=169,175>
+	nif:annotationUnit ann:annotation11 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "169"^^xsd:nonNegativeInteger ;
+	nif:endIndex "175"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:12 a nif:AnnotationUnit ;
+	nif:subject wd:Q29 ;
+	nif:predicate wdt:P37 ;
+	nif:object wd:Q7026 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=140,145>
+	nif:annotationUnit ann:annotation12 ;
+	nif:anchorOf "Spain" ;
+	nif:beginIndex "140"^^xsd:nonNegativeInteger ;
+	nif:endIndex "145"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=0,7>
+	nif:annotationUnit ann:annotation12 ;
+	nif:anchorOf "Catalan" ;
+	nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+	nif:endIndex "7"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:13 a nif:AnnotationUnit ;
+	nif:subject wd:Q29 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q142 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=140,145>
+	nif:annotationUnit ann:annotation13 ;
+	nif:anchorOf "Spain" ;
+	nif:beginIndex "140"^^xsd:nonNegativeInteger ;
+	nif:endIndex "145"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=169,175>
+	nif:annotationUnit ann:annotation13 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "169"^^xsd:nonNegativeInteger ;
+	nif:endIndex "175"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:14 a nif:AnnotationUnit ;
+	nif:subject wd:Q142 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q29 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=169,175>
+	nif:annotationUnit ann:annotation14 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "169"^^xsd:nonNegativeInteger ;
+	nif:endIndex "175"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=140,145>
+	nif:annotationUnit ann:annotation14 ;
+	nif:anchorOf "Spain" ;
+	nif:beginIndex "140"^^xsd:nonNegativeInteger ;
+	nif:endIndex "145"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:15 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P37 ;
+	nif:object wd:Q7026 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=226,233>
+	nif:annotationUnit ann:annotation15 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "226"^^xsd:nonNegativeInteger ;
+	nif:endIndex "233"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=177,179>
+	nif:annotationUnit ann:annotation15 ;
+	nif:anchorOf "It" ;
+	nif:beginIndex "177"^^xsd:nonNegativeInteger ;
+	nif:endIndex "179"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Simple_Coreference" .
+
+
+
+ann:16 a nif:AnnotationUnit ;
+	nif:subject wd:Q7026 ;
+	nif:predicate wdt:P2341 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=177,179>
+	nif:annotationUnit ann:annotation16 ;
+	nif:anchorOf "It" ;
+	nif:beginIndex "177"^^xsd:nonNegativeInteger ;
+	nif:endIndex "179"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Simple_Coreference" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=226,233>
+	nif:annotationUnit ann:annotation16 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "226"^^xsd:nonNegativeInteger ;
+	nif:endIndex "233"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:17 a nif:AnnotationUnit ;
+	nif:subject wd:Q7026 ;
+	nif:predicate wdt:P17 ;
+	nif:object wd:Q228 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=177,179>
+	nif:annotationUnit ann:annotation17 ;
+	nif:anchorOf "It" ;
+	nif:beginIndex "177"^^xsd:nonNegativeInteger ;
+	nif:endIndex "179"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Simple_Coreference" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=226,233>
+	nif:annotationUnit ann:annotation17 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "226"^^xsd:nonNegativeInteger ;
+	nif:endIndex "233"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:18 a nif:AnnotationUnit ;
+	nif:subject wd:Q29 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q142 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=1468,1473>
+	nif:annotationUnit ann:annotation18 ;
+	nif:anchorOf "Spain" ;
+	nif:beginIndex "1468"^^xsd:nonNegativeInteger ;
+	nif:endIndex "1473"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=1502,1508>
+	nif:annotationUnit ann:annotation18 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "1502"^^xsd:nonNegativeInteger ;
+	nif:endIndex "1508"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:19 a nif:AnnotationUnit ;
+	nif:subject wd:Q142 ;
+	nif:predicate wdt:P47 ;
+	nif:object wd:Q29 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=1502,1508>
+	nif:annotationUnit ann:annotation19 ;
+	nif:anchorOf "France" ;
+	nif:beginIndex "1502"^^xsd:nonNegativeInteger ;
+	nif:endIndex "1508"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=1468,1473>
+	nif:annotationUnit ann:annotation19 ;
+	nif:anchorOf "Spain" ;
+	nif:beginIndex "1468"^^xsd:nonNegativeInteger ;
+	nif:endIndex "1473"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q29 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:20 a nif:AnnotationUnit ;
+	nif:subject wd:Q7026 ;
+	nif:predicate wdt:P17 ;
+	nif:object wd:Q142 ;
+	rdfs:comment "Simple-Aligner" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=2539,2546>
+	nif:annotationUnit ann:annotation20 ;
+	nif:anchorOf "Catalan" ;
+	nif:beginIndex "2539"^^xsd:nonNegativeInteger ;
+	nif:endIndex "2546"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=2456,2461>
+	nif:annotationUnit ann:annotation20 ;
+	nif:anchorOf "There" ;
+	nif:beginIndex "2456"^^xsd:nonNegativeInteger ;
+	nif:endIndex "2461"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q142 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+
+
+ann:21 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P37 ;
+	nif:object wd:Q7026 ;
+	rdfs:comment "SPOAligner" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=226,233>
+	nif:annotationUnit ann:annotation21 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "226"^^xsd:nonNegativeInteger ;
+	nif:endIndex "233"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=205,222>
+	nif:annotationUnit ann:annotation21 ;
+	nif:anchorOf "official language" ;
+	nif:beginIndex "205"^^xsd:nonNegativeInteger ;
+	nif:endIndex "222"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wdt:P37 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Property_Linker" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=177,179>
+	nif:annotationUnit ann:annotation21 ;
+	nif:anchorOf "It" ;
+	nif:beginIndex "177"^^xsd:nonNegativeInteger ;
+	nif:endIndex "179"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Simple_Coreference" .
+
+
+
+ann:22 a nif:AnnotationUnit ;
+	nif:subject wd:Q228 ;
+	nif:predicate wdt:P37 ;
+	nif:object wd:Q7026 ;
+	rdfs:comment "SPOAligner" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=226,233>
+	nif:annotationUnit ann:annotation22 ;
+	nif:anchorOf "Andorra" ;
+	nif:beginIndex "226"^^xsd:nonNegativeInteger ;
+	nif:endIndex "233"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q228 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Spotlight_Entity_Linker" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=244,261>
+	nif:annotationUnit ann:annotation22 ;
+	nif:anchorOf "official language" ;
+	nif:beginIndex "244"^^xsd:nonNegativeInteger ;
+	nif:endIndex "261"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wdt:P37 ;
+	a nif:Phrase ;
+	rdfs:comment "Wikidata_Property_Linker" .
+
+<http://www.wikidata.org/entity/Q7026?nif=phrase&char=177,179>
+	nif:annotationUnit ann:annotation22 ;
+	nif:anchorOf "It" ;
+	nif:beginIndex "177"^^xsd:nonNegativeInteger ;
+	nif:endIndex "179"^^xsd:nonNegativeInteger ;
+	nif:referenceContext <http://www.wikidata.org/entity/Q7026?nif=context> ;
+	itsrdf:taIdentRef wd:Q7026 ;
+	a nif:Phrase ;
+	rdfs:comment "Simple_Coreference" .
+
+
+
