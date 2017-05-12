@@ -32,6 +32,8 @@ Take every pair of entities in the sentence and find matches in the knowledge ba
 * The SPO aligner :
 Aligns triples only when the subject, the object **and** the predicate are found in the sentence (the predicate is extracted using a property linker)
 
+![System architecture picture](./images/system.png "System architecture")      
+
 ## Evaluation
 We derive a crowdsourcing experiment to evaluate the quality of our generated dataset.
 We asked contributors to read the document and annotate each triple to be true only if the triple is explicitly mentioned in the given document.
@@ -50,8 +52,8 @@ The full dump will be available after paper's acceptance.
 [Arslen Remaci](arslen.remaci@etu.univ-st-etienne.fr)
 
 ## Acknowledgements
-![Université Jean Monnet logo](./logos/ujm.png "Université Jean Monnet")      ![Southampton University logo](./logos/soton.png "Southampton University")
+![Université Jean Monnet logo](./images/ujm.png "Université Jean Monnet")      ![Southampton University logo](./images/soton.png "Southampton University")
 
-![EU](./logos/eu.png "EU") 
+![EU](./images/eu.png "EU") 
 
 WDAqua project is funded by the European Union‘s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No 642795.
