@@ -39,17 +39,26 @@ We derive a crowdsourcing experiment to evaluate the quality of our generated da
 We asked contributors to read the document and annotate each triple to be true only if the triple is explicitly mentioned in the given document.
 To guarantee high quality annotations we manually annotated 100 documents and used them to filter out the bad contributors.
 
-## Accessibility
+## Accessibility and Licensing:
 Our dataset is available in [JSON format](./samples/sample-output.json) and can also be provided as a [NIF output](./samples/sample-output-Nif.ttl)
 
 The full dump will be available after paper's acceptance.
 
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+
+
 ## Contributors
-[Hady Elsahar](hady.elsahar@univ-st-etienne.fr)
+Hady Elsahar
+PhD. Student, Université de Lyon, Saint Etienne, France.
+hady.elsahar@univ-st-etienne.fr
 
-[Pavlos Vougiouklis](pv1e13@ecs.soton.ac.uk)
+Pavlos Vougiouklis
+PhD. Sutdent, Electronics and Computer Science University of Southampton Southampton, UK
+pv1e13@ecs.soton.ac.uk
 
-[Arslen Remaci](arslen.remaci@etu.univ-st-etienne.fr)
+Arslen Remaci
+Student Intern, Laboratoire Hubert Curien, Saint Etienne, France.
+arslen.remaci@etu.univ-st-etienne.fr
 
 ## Acknowledgements
 ![Université Jean Monnet logo](./images/ujm.png "Université Jean Monnet")      ![Southampton University logo](./images/soton.png "Southampton University")
