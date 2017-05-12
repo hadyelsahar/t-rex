@@ -12,14 +12,14 @@ But where the others datasets have a small number of documents (*TAC-KBP*), only
 
 With 11 million triple alignments made from 3.09 million DBpedia abstracts (6.2 million sentences), **_T-REx_** is two orders of magnitude larger than the largest available alignments to the community.
 
-| Dataset                  | Documents / Format      | Unique predicates | Aligned Triples | Availability        |
-|:------------------------:|:-----------------------:|:-----------------:|:---------------:|:-------------------:|
-| NYT-FB (yao et al. 2011) | 1.8M Sent.              | 258               | 39K             | partially available |
-| TAC KBP                  | 90K Sent.               | 41                | 122K            | closed              |
-| FB15K-237                | 2.7 M textual-relations | 237               | 2.7M            | publicly available  |
-| Wikireadings             | 4.7M Articles           | 884               | n.a.            | publicly available  |
-| Google-RE                | 60K Sent.               | 5                 | 60K             | publicly available  |
-| T-REx                    | 6.2M Sent.              | 642               | 11M             | publicly available  |
+| Dataset                  | Documents / Format      | Unique predicates | Aligned Triples | Availability           |
+|:------------------------:|:-----------------------:|:-----------------:|:---------------:|:----------------------:|
+| NYT-FB (yao et al. 2011) | 1.8M Sent.              | 258               | 39K             | partially available    |
+| TAC KBP                  | 90K Sent.               | 41                | 122K            | closed                 |
+| FB15K-237                | 2.7 M textual-relations | 237               | 2.7M            | publicly available     |
+| Wikireadings             | 4.7M Articles           | 884               | n.a.            | publicly available     |
+| Google-RE                | 60K Sent.               | 5                 | 60K             | publicly available     |
+| **T-REx**                | **6.2M Sent.**          | **642**           | **11M**         | **publicly available** |
 
 ## How is it built ?
 We use a set of components to read documents, entity linking and extract triples.
