@@ -22,7 +22,8 @@ With 11 million triple alignments made from 3.09 million DBpedia abstracts (6.2 
 | **T-REx**                | **6.2M Sent.**          | **642**           | **11M**         | **publicly available** |
 
 ## How is it built ?
-We use a set of components to read documents, entity linking and extract triples.
+We use an alignment pipeline which contains a set of components to read documents, entity linking and extract triples.
+We made it easy to use this pipeline over new text corpora and even plug your own annotator like Stanford NER Tagger, Babelfy, etc...
 For the triples, we have three methodologies that all rely on the distant supervision assumption.
 * The Nosubject aligner :
 Assumes that sentences in the same paragraph have the same subject.
@@ -40,7 +41,7 @@ We asked contributors to read the document and annotate each triple to be true o
 To guarantee high quality annotations we manually annotated 100 documents and used them to filter out the bad contributors.
 
 ## Dataset Formats
-Our dataset is available in [JSON format](./samples/sample-output.json) and can also be provided as a [NIF output](./samples/sample-output-Nif.ttl).
+Our dataset is available in [JSON format](./samples/sample-output.json) and [NIF format](./samples/sample-output-Nif.ttl).
 
 # JSON
 ```
@@ -192,7 +193,7 @@ ann:72 a nif:AnnotationUnit ;                                                   
 ```
 
 ## Accessibility and Licensing:
-The full dump will be available after paper's acceptance.
+**The full dump and the code for the alignment pipeline will be available after paper's acceptance.**
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
