@@ -59,7 +59,6 @@ Our dataset is available in [JSON format](./samples/sample-output.json) and can 
         "uri": "http://www.wikidata.org/entity/Q228",                   # URI of the entity
         "annotator": "Wikidata_Spotlight_Entity_Linker"                 # The annotator used to detect this entity
       }
-      # ...
       "words_boundaries": [                                             # List of tuples (start, end) of each word in the document, start/end are character indices
       [
         0,
@@ -69,7 +68,6 @@ Our dataset is available in [JSON format](./samples/sample-output.json) and can 
         8,
         10
       ]
-      #...
     "triples": [                                                        # List of triples that occur in the document
       {                                                                 # We opt of having them exclusive of other fields so they can be self contained and easy to process
         "sentence_id": 0,                                               # Integer showing which sentence does this triple lie in
@@ -101,7 +99,6 @@ Our dataset is available in [JSON format](./samples/sample-output.json) and can 
         },
         "annotator": "NoSubject-Triple-aligner"                         # Annotator used to annotate this triple with the sentence
       }
-      # ...
       "sentences_boundaries": [                                         # List of tuples (start, end) of each sentence in the document, start/end are character indices
       [
         0,
@@ -111,7 +108,6 @@ Our dataset is available in [JSON format](./samples/sample-output.json) and can 
         352,
         383
       ]
-      # ...
 }
 ```
 
