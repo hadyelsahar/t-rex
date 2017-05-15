@@ -49,17 +49,7 @@ Our dataset is available in [JSON format](./samples/sample-output.json) and can 
     "title": "Andorra",                                                 # Title of the document
     "text": "Andorra (/ænˈdɔːrə/; [ənˈdorə], [anˈdɔra]), officially the Principality of Andorra (Catalan: Principat d'Andorra), also called the Principality of the Valleys of Andorra (Catalan: Principat de les Valls d'Andorra), is a sovereign landlocked microstate in Southwestern Europe, located in the eastern Pyrenees mountains and bordered by Spain and France. Created under a charter in A.D. 988, the present Principality was formed in A.D. 1278. It is known as a principality as it is a monarchy headed by two Co-Princes – the Spanish/Roman Catholic Bishop of Urgell and the President of France. Andorra is the sixth-smallest nation in Europe, having an area of 468 km2 (181 sq mi) and a population of approximately 85,000. Its capital Andorra la Vella is the highest capital city in Europe, at an elevation of 1,023 metres (3,356 ft) above sea level. The official language is Catalan, although Spanish, Portuguese, and French are also commonly spoken. Andorra's tourism services an estimated 10.2 million visitors annually. It is not a member of the European Union, but the Euro is the de facto currency. It has been a member of the United Nations since 1993. In 2013, the people of Andorra had the highest life expectancy in the world at 81 years, according to The Lancet. Andorra entered service at 1970-01-22.",                                                                  # The whole text of the document
     "uri": "http://www.wikidata.org/entity/Q228",                       # URI of the item containing the main page
-    "entities": [                                                       # List of Entities   (Class Entity)
-      {
-        "boundaries": [                                                 # Tuple containing the start and the end of the surfaceform of the entity
-          0,
-          7
-        ],
-        "surfaceform": "Andorra",                                       # Name of the entity
-        "uri": "http://www.wikidata.org/entity/Q228",                   # URI of the entity
-        "annotator": "Wikidata_Spotlight_Entity_Linker"                 # The annotator used to detect this entity
-      }
-      "words_boundaries": [                                             # List of tuples (start, end) of each word in the document, start/end are character indices
+    "words_boundaries": [                                               # List of tuples (start, end) of each word in the document, start/end are character indices
       [
         0,
         7
@@ -68,9 +58,29 @@ Our dataset is available in [JSON format](./samples/sample-output.json) and can 
         8,
         10
       ]
+    ]
+    "sentences_boundaries": [                                           # List of tuples (start, end) of each sentence in the document, start/end are character indices
+        [
+            0,
+            351
+        ],
+        [
+            352,
+            383
+        ]
+    ]
     "triples": [                                                        # List of triples that occur in the document
       {                                                                 # We opt of having them exclusive of other fields so they can be self contained and easy to process
         "sentence_id": 0,                                               # Integer showing which sentence does this triple lie in
+        "subject": {                                                    # Class Entity (subject of the triple)
+          "boundaries": [                                               # The boundaries of the subject's name in the paragraph
+            0,
+            7
+          ],
+          "surfaceform": "Andorra",                                     # The name of the entity
+          "uri": "http://www.wikidata.org/entity/Q228",                 # The URI of the entity
+          "annotator": "Wikidata_Spotlight_Entity_Linker"               # The annotator of the entity
+        },
         "predicate": {                                                  # Class Entity (predicate of the triple)
           "boundaries": null,                                           # The boundaries of the property's name in the paragraph (null if the aligner can't bring it)
           "surfaceform": null,                                          # The name of the predicate (null if the aligner can't bring it)
@@ -88,30 +98,27 @@ Our dataset is available in [JSON format](./samples/sample-output.json) and can 
         },
         "dependency_path": null,                                        # Lexicalized dependency path between sub and obj if exists or None (if not existing)
         "confidence": null,                                             # Confidence of annotation if possible
-        "subject": {                                                    # Class Entity (subject of the triple)
-          "boundaries": [                                               # The boundaries of the subject's name in the paragraph
-            0,
-            7
-          ],
-          "surfaceform": "Andorra",                                     # The name of the entity
-          "uri": "http://www.wikidata.org/entity/Q228",                 # The URI of the entity
-          "annotator": "Wikidata_Spotlight_Entity_Linker"               # The annotator of the entity
-        },
         "annotator": "NoSubject-Triple-aligner"                         # Annotator used to annotate this triple with the sentence
       }
-      "sentences_boundaries": [                                         # List of tuples (start, end) of each sentence in the document, start/end are character indices
-      [
-        0,
-        351
-      ],
-      [
-        352,
-        383
-      ]
+    ]
+    "entities": [                                                       # List of Entities   (Class Entity)
+      {
+        "boundaries": [                                                 # Tuple containing the start and the end of the surfaceform of the entity
+          0,
+          7
+        ],
+        "surfaceform": "Andorra",                                       # Name of the entity
+        "uri": "http://www.wikidata.org/entity/Q228",                   # URI of the entity
+        "annotator": "Wikidata_Spotlight_Entity_Linker"                 # The annotator used to detect this entity
+      }
+    ]
 }
 ```
 
 # NIF (ttl)
+The NLP Interchange Format (NIF) is an RDF/OWL-based format that aims to achieve interoperability between Natural Language Processing (NLP) tools, language resources and annotations.
+
+[NLP Interchange Format page](http://persistence.uni-leipzig.org/nlp2rdf/)
 ```
 # Prefixes
 @prefix ann: <http://triplr.dbpedia.org/resource/> .
