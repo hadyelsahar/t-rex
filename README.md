@@ -39,9 +39,117 @@ We derive a crowdsourcing experiment to evaluate the quality of our generated da
 We asked contributors to read the document and annotate each triple to be true only if the triple is explicitly mentioned in the given document.
 To guarantee high quality annotations we manually annotated 100 documents and used them to filter out the bad contributors.
 
-## Accessibility and Licensing:
-Our dataset is available in [JSON format](./samples/sample-output.json) and can also be provided as a [NIF output](./samples/sample-output-Nif.ttl)
+## Dataset Formats
+Our dataset is available in [JSON format](./samples/sample-output.json) and can also be provided as a [NIF output](./samples/sample-output-Nif.ttl).
 
+# JSON
+```
+{
+    "docid":                                # Document ID
+    "title":                                # Title of the document
+    "text":                                 # The whole text of the document
+    "uri":                                  # URI of the item containing the main page
+    "entities":                             # List of Entities (Class Entity)
+        [
+            {
+                "boundaries": (start,end)   # Tuple containing the start and the end of the surfaceform of the entity
+                "surfaceform":             # Name of the entity
+                "uri":                      # URI of the entity
+                "annotator" :               # The annotator name used to detect this entity
+            }
+        ]
+    "words_boundaries":                     # List of tuples (start, end) of each word in the document, start/end are character indices
+    "triples":                              # List of triples that occur in the document
+                                            # We opt of having them exclusive of other fields so they can be self contained and easy to process
+        [
+            {
+                "sentence_id":              # Integer shows which sentence does this triple lie in
+                "predicate":                # Class Entity (predicate of the triple)
+                "object":                   # Class Entity (object of the triple)
+                "dependency_path":          # Lexicalized dependency path between sub and obj if exists or None (if not existing)
+                "confidence":               # Confidence of annotation if possible
+                "subject":                  # Class Entity (subject of the triple)
+                "annotator":                # Annotator used to annotate this triple with the sentence
+            }
+        ]
+    "sentences_boundaries":                 # List of tuples (start, end) of each sentence in the document, start/end are character indices
+}
+```
+
+# NIF (ttl)
+```
+# Prefixes
+@prefix ann: <http://triplr.dbpedia.org/resource/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix nif: <http://ontology.neuinfo.org/NIF/Backend/nif_backend.owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+
+
+#### MAIN PARAGRAPHS #####  
+<http://www.wikidata.org/entity/Q228?nif=context>                                # Repeated for every document (Q228 is the document.pageuri)
+   nif:beginIndex "0"^^xsd:nonNegativeInteger ;                                  # Beginning of the paragraph
+   nif:endIndex "1306"^^xsd:nonNegativeInteger ;                                 # End of the paragraph
+   nif:isString """Andorra (/ænˈdɔːrə/; [ənˈdorə], [anˈdɔra]), officially the Principality of Andorra (Catalan: Principat d'Andorra), also called the Principality of the Valleys of Andorra (Catalan: Principat de les Valls d'Andorra), is a sovereign landlocked microstate in Southwestern Europe, located in the eastern Pyrenees mountains and bordered by Spain and France. Created under a charter in A.D. 988, the present Principality was formed in A.D. 1278. It is known as a principality as it is a monarchy headed by two Co-Princes – the Spanish/Roman Catholic Bishop of Urgell and the President of France. Andorra is the sixth-smallest nation in Europe, having an area of 468 km2 (181 sq mi) and a population of approximately 85,000. Its capital Andorra la Vella is the highest capital city in Europe, at an elevation of 1,023 metres (3,356 ft) above sea level. The official language is Catalan, although Spanish, Portuguese, and French are also commonly spoken. Andorra's tourism services an estimated 10.2 million visitors annually. It is not a member of the European Union, but the Euro is the de facto currency. It has been a member of the United Nations since 1993. In 2013, the people of Andorra had the highest life expectancy in the world at 81 years, according to The Lancet. Andorra entered service at 1970-01-22. """;      # Whole text of the document
+   nif:predLang <http://lexvo.org/id/iso639-3/eng> ;                             # The language
+   a nif:Context .                                     
+
+######## TRIPLES ALIGNED #############
+# ...
+
+# Triple 72 : 
+ann:72 a nif:AnnotationUnit ;                                                    # Annotation unit with its number 
+   nif:subject wd:Q228 ;                                                         # The subject
+   nif:predicate wdt:P47 ;                                                       # The predicate
+   nif:object wd:Q29 ;                                                           # The object
+   rdfs:comment "SPOAligner" .                                                   # The aligner who made this triple
+
+######## Entities per Triple ############
+
+# Subject of the triple 72, printed if the annotator of the triple is the SPOAligner or the AllEntitiesAligner (SimpleAligner)
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=0,7>                        # Q228 refer to the URI of the document here, not to the entity
+   nif:annotationUnit ann:annotation72 ;                                         # This means associated to Annotation 72
+   nif:anchorOf "Andorra" ;                                                      # The name of the entity
+   nif:beginIndex "0"^^xsd:nonNegativeInteger ;                                  # The beginning of the entity's name in the paragraph
+   nif:endIndex "7"^^xsd:nonNegativeInteger ;                                    # The end of the entity's name in the paragraph
+   nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;      # The document where this was mentioned
+   itsrdf:taIdentRef wd:Q228 ;                                                   # The entity URI
+   a nif:Phrase ;                                                                
+   rdfs:comment "Wikidata_Spotlight_Entity_Linker" .                             # The linker who made this annotation
+
+# Predicate of the triple 72, printed if the annotator of the triple is the SPOAligner
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=322,333>                    # Q228 refer to the URI of the document here, not to the entity
+   nif:annotationUnit ann:annotation72 ;                                         # This means associated to Annotation 72
+   nif:anchorOf "bordered by" ;                                                  # The name of the predicate (removed if the aligner can't bring it)
+   nif:beginIndex "322"^^xsd:nonNegativeInteger ;                                # The beginning of the property's name in the paragraph (removed if the aligner can't bring it)
+   nif:endIndex "333"^^xsd:nonNegativeInteger ;                                  # The end of the property's name in the paragraph (removed if the aligner can't bring it)
+   nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;      # The document where this was mentioned
+   itsrdf:taIdentRef wdt:P47 ;                                                   # The property URI
+   a nif:Phrase ;                                                                
+   rdfs:comment "Wikidata_Property_Linker" .                                     # The linker who made this annotation
+
+# Object of the triple 72
+
+<http://www.wikidata.org/entity/Q228?nif=phrase&char=334,339>                    # Q228 refer to the URI of the document here, not to the entity
+   nif:annotationUnit ann:annotation72 ;                                         # This means associated to Annotation 72
+   nif:anchorOf "Spain" ;                                                        # The name of the entity
+   nif:beginIndex "334"^^xsd:nonNegativeInteger ;                                # The beginning of the entity's name in the paragraph
+   nif:endIndex "339"^^xsd:nonNegativeInteger ;                                  # The end of the entity's name in the paragraph
+   nif:referenceContext <http://www.wikidata.org/entity/Q228?nif=context> ;      # The document where this was mentioned
+   itsrdf:taIdentRef wd:Q29 ;                                                    # The entity URI
+   a nif:Phrase ;                                                                
+   rdfs:comment "Wikidata_Spotlight_Entity_Linker" .                             # The linker who made this annotation
+
+# ...
+```
+
+## Accessibility and Licensing:
 The full dump will be available after paper's acceptance.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
@@ -53,7 +161,7 @@ PhD. Student, Université de Lyon, Saint Etienne, France.
 hady.elsahar@univ-st-etienne.fr
 
 Pavlos Vougiouklis
-PhD. Sutdent, Electronics and Computer Science University of Southampton Southampton, UK
+PhD. Student, Electronics and Computer Science University of Southampton Southampton, UK
 pv1e13@ecs.soton.ac.uk
 
 Arslen Remaci
