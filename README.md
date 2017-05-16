@@ -197,6 +197,8 @@ ann:72 a nif:AnnotationUnit ;                                                   
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
+## Downloads
+T-REx is in constant state of evolving. We work to integrate new aligners in the alignment pipeline whose output is available on the [Download page](http://hadyelsahar.github.io/t-rex/downloads).
 
 ## Contributors
 Hady Elsahar
@@ -204,7 +206,7 @@ PhD. Student, Université de Lyon, Saint Etienne, France.
 hady.elsahar@univ-st-etienne.fr
 
 Pavlos Vougiouklis
-PhD. Student, Electronics and Computer Science University of Southampton Southampton, UK
+PhD. Student, Electronics and Computer Science University of Southampton, Southampton, UK
 pv1e13@ecs.soton.ac.uk
 
 Arslen Remaci
