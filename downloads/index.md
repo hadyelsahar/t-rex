@@ -2,4 +2,5 @@
 # Downloads page
 
 ## Sample 2017-05
-10K documents sample available in [JSON]() and [NIF]()
+10K documents sample available in [JSON](https://www.dropbox.com/s/jlszpvnwklmeysl/T-REx_sample.zip?dl=0)
+
