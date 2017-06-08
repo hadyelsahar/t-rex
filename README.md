@@ -201,47 +201,33 @@ ann:72 a nif:AnnotationUnit ;                                                   
 T-REx is in constant state of evolving. We work to integrate new aligners in the alignment pipeline whose output is available on the [Download page](http://hadyelsahar.github.io/t-rex/downloads).
 
 ## Contributors
-**Hady Elsahar**
-
-PhD. Student, Université de Lyon, Saint Etienne, France.
-
+**Hady Elsahar**  
+PhD. Student, Université de Lyon, Saint Etienne, France.  
 *hady.elsahar@univ-st-etienne.fr*
 
-**Pavlos Vougiouklis**
-
-PhD. Student, Electronics and Computer Science, University of Southampton, Southampton, UK
-
+**Pavlos Vougiouklis**  
+PhD. Student, Electronics and Computer Science, University of Southampton, Southampton, UK  
 *pv1e13@ecs.soton.ac.uk*
 
-**Arslen Remaci**
-
-Student Intern, Laboratoire Hubert Curien, Saint Etienne, France.
-
+**Arslen Remaci**  
+Student Intern, Laboratoire Hubert Curien, Saint Etienne, France.  
 *arslen.remaci@etu.univ-st-etienne.fr*
 
 ### Supervisors
-**Frédérique Laforest**
-
-Professor, Laboratoire Hubert Curien, Saint Etienne, France
-
+**Frédérique Laforest**  
+Professor, Laboratoire Hubert Curien, Saint Etienne, France  
 *frederique.laforest@univ-st-etienne.fr*
 
-**Christophe Gravier**
-
-Associate Professor with Habilitation (HDR), Laboratoire Hubert Curien, Saint Etienne, France
-
+**Christophe Gravier**  
+Associate Professor with Habilitation (HDR), Laboratoire Hubert Curien, Saint Etienne, France  
 *christophe.gravier@univ-st-etienne.fr*
 
-**Elena Simperl**
-
-Professor, Electronics and Computer Science, University of Southampton, Southampton, UK 
-
+**Elena Simperl**  
+Professor, Electronics and Computer Science, University of Southampton, Southampton, UK  
 *e.simperl@ecs.soton.ac.uk*
 
-**Jonathon Hare**
-
-Lecturer, Electronics and Computer Science, University of Southampton, Southampton, UK
-
+**Jonathon Hare**  
+Lecturer, Electronics and Computer Science, University of Southampton, Southampton, UK  
 *jsh2@ecs.soton.ac.uk*
 
 ## Acknowledgements
