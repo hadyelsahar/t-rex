@@ -197,11 +197,11 @@ T-REx dataset are publicly available under a Creative Commons Attribution-ShareA
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
-While The Extraction pipeline is avaialble under the ** MIT License **
+While The Extraction pipeline is avaialble under the **_MIT License_**
 
 ## Accessibility:
 ### Code: 
-The code is available under the ** MIT License ** on the following Github Repository
+The code is available under the **_MIT License_** on the following Github Repository
 [Code Available from here](https://github.com/hadyelsahar/RE-NLG-Dataset).
 
 ### Dataset:
