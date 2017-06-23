@@ -192,12 +192,19 @@ ann:72 a nif:AnnotationUnit ;                                                   
 # ...
 ```
 
-## Accessibility and Licensing:
-**The full dump and the code for the alignment pipeline will be available after paper's acceptance.**
+## Licensing
+T-REx dataset are publicly available under a Creative Commons Attribution-ShareAlike 4.0 International License.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
-## Downloads
+While The Extraction pipeline is avaialble underthe Apache 2.0 Licence/
+
+## Accessibility:
+### Code: 
+**The code is available under the Apache 2.0 Licence on the following Github Repository**
+[Code Available from here](https://github.com/hadyelsahar/RE-NLG-Dataset).
+
+### Dataset:
 T-REx is in constant state of evolving. We work to integrate new aligners in the alignment pipeline whose output is available on the [Download page](http://hadyelsahar.github.io/t-rex/downloads).
 
 ## Contributors
