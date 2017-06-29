@@ -14,7 +14,8 @@
 
 ## Full (6.2M Sentences - 11M Aligned Triples, 4.4 GB) 2017-05:
 
+#### JSON:
 [https://doi.org/10.6084/m9.figshare.5146864.v1](https://doi.org/10.6084/m9.figshare.5146864.v1)
 
-
-
+#### NIF: 
+[https://doi.org/10.6084/m9.figshare.5151190.v1](https://doi.org/10.6084/m9.figshare.5151190.v1)
