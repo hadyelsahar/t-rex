@@ -33,7 +33,7 @@ Take every pair of entities in the sentence and find matches in the knowledge ba
 * The SPO aligner :
 Aligns triples only when the subject, the object **and** the predicate are found in the sentence (the predicate is extracted using a property linker)
 
-![System architecture picture](./images/system.png "System architecture")      
+![System architecture picture](./images/TREx_LREC.png "System architecture")      
 
 ## Evaluation
 We derive a crowdsourcing experiment to evaluate the quality of our generated dataset.
