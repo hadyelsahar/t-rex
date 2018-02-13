@@ -1,6 +1,6 @@
 # T-Rex : A Large Scale Alignment of Natural Language with Knowledge Base Triples
 
-Paper to appear in LREC 2018, Miyazaki (Japan)
+Paper to appear in LREC 2018, Miyazaki (Japan) [Download a preprint](./paper.pdf)
 
 ## Introduction
 
